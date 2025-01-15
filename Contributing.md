@@ -52,9 +52,3 @@ Click on "New Issue" and describe the problem in detail.
 
 Code of Conduct
 We are committed to creating a welcoming and inclusive environment for everyone. Please be respectful to others when contributing or interacting with the project.
-
-
-
-
-HI guys...
-<h2>Hello world</h2>h2>
