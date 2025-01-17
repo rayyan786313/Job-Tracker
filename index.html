@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Tracker</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/update.css">
+</head>
+<!-- buttonStart -->
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Job Tracker & Interview Details</h1>
+        <button id="addJobBtn">Add Job </button>
+        <div class="overlay" id="overlay"></div>
+        </a> <button id="dashbord_b">Dashbord</button>
+
+        <button id="Login_b">Login</button>
+
+
+    </header>
+
+
+    <!-- Job Status Section -->
+    <section class="job-status">
+        <!-- Applied Jobs -->
+        <div class="job-list" id="applied-jobs">
+            <h2>Applied Jobs</h2>
+        </div>
+
+        <!-- Interview Jobs -->
+        <div class="job-list" id="interview-jobs">
+            <h2>Interview Jobs</h2>
+        </div>
+
+        <!-- Rejected Jobs -->
+        <div class="job-list" id="rejected-jobs">
+            <h2>Rejected Jobs</h2>
+        </div>
+
+        <!-- Got Offer Jobs -->
+        <div class="job-list" id="offer-jobs">
+            <h2>Got Offer Jobs</h2>
+        </div>
+    </section>
+
+
+    </head>
+
+    <body>
+        <!-- <div class="container">
+            <button id="addJobBtn" class="add-job-btn">Add Job</button>
+        </div> -->
+
+        <div id="popupForm">
+            <div class="popup-content">
+                <span id="closeFormBtn" class="close-btn">&times;</span>
+                <h2>Add New Job Application </h2>
+
+                <form id="job-form">
+                    <label for="company-name">Company Name:</label>
+                    <input type="text" id="company-name" required>
+
+                    <label for="position">Position:</label>
+                    <input type="text" id="position" required>
+
+                    <label for="apply-date">Apply Date:</label>
+                    <input type="date" id="apply-date" required>
+
+                    <label for="interview-date">Interview Date:</label>
+                    <input type="date" id="interview-date" required>
+
+                    <label for="status">Status:</label>
+                    <select id="status">
+                        <option value="applied">Applied</option>
+                        <option value="interview">Interview</option>
+                        <option value="rejected">Rejected</option>
+                        <option value="offer">Got Offer</option>
+                    </select>
+
+                    <button type="submit">Add Job</button>
+                </form>
+                <button id="backBtn" class="back-btn">Back</button>
+            </div>
+        </div>
+
+        
+
+        <!-- buttonEnd -->
+
+
+        <script src="assets/js/script.js"></script>
+        <!-- <script src="formadj.js"></script> -->
+        <script src="assets/js/update.js"></script>
+    </body>
+
+</html>
